@@ -29,8 +29,50 @@ img{
     margin-left: 32%;
 }
 
-table{
-    border: 2;
+#table{
     border-color: blue;
     margin-left: 30%;
+}
+label{
+    margin-left: 50%;
+}
+.TF{
+    float:left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+input[type=text], select, textarea{
+    width: 30%;
+    height: 30px;
+    margin-left: 15%;
+    color: black;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+input[type=submit]{
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: 4px;
+    cursor: pointer;
+    margin-left: 75%;
+    border-radius: 10px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+@media screen and (max-width: 500px) {
+    .mensagens, .rolagem, input[type=submit] {
+        max-width: 100%;
+        margin-top: 0;}}
+
+.container{
+    background-color: yellowgreen;
+    border-radius: 10px;
+    margin-left: 30%;
+    width: 60%;
+    height: 150px;
 }
