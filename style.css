@@ -1,0 +1,36 @@
+*{
+    color: white;
+}
+body{
+    background-color: rgb(56, 56, 56);
+}
+#EstilizacaodePaginas{
+    max-width: 60%;
+    max-height: 30%;
+    margin-left: 32%;
+}
+
+img{
+    border-radius: 10%;
+    margin-left: 33%;
+}
+#Title{
+    margin-left: 46%;
+}
+
+#Semantica{
+    max-width: 60%;
+    max-height: 30%;
+    margin-left: 32%;
+}
+#Seletores{
+    max-width: 60%;
+    max-height: 30%;
+    margin-left: 32%;
+}
+
+table{
+    border: 2;
+    border-color: blue;
+    margin-left: 30%;
+}
