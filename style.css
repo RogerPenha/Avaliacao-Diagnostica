@@ -10,13 +10,18 @@ body{
 }
 #EstilizacaodePaginas{
     max-width: 60%;
-    max-height: 30%;
+    max-height: 20%;
     margin-left: 35%;
 }
 #Boxmodel{
     max-width: 60%;
     max-height: 30%;
     margin-left: 26%;
+}
+#Pseudo{
+    max-width: 60%;
+    max-height: 30%;
+    margin-left: 30%;
 }
 
 img{
@@ -35,7 +40,7 @@ img{
 #Seletores{
     max-width: 60%;
     max-height: 30%;
-    margin-left: 32%;
+    margin-left: 30%;
 }
 
 #table{
@@ -117,7 +122,12 @@ li a{
     text-align: center;
 }
 li a:hover{
+    transition: 500ms;
     background-color: blue;
+}
+li a:active{
+    transition: 500ms;
+    background-color: red;
 }
 input[type=submit]:hover {
     background-color: green;
@@ -125,6 +135,7 @@ input[type=submit]:hover {
 li{
     list-style-type: none;
 }
+
 html{
     scroll-behavior: smooth;
 }
