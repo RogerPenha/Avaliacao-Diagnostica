@@ -9,6 +9,35 @@
 <header>
     <h1 id="Title">Avaliação-Diagnóstica</h1>
 </header>
+<nav>  
+    <ul>
+        <li>
+            <h2 style="text-align: center;">
+                MENU
+            </h2>
+        </li>
+        <li>
+            <a href="#Semantica">
+                Semântica 
+            </a>
+        </li>
+        <li>
+            <a href="#Seletores">
+                Tipos de Seletores
+            </a>
+        </li>
+        <li>
+            <a href="#Boxmodel">
+                Box Model
+            </a>
+        </li>
+        <li>
+            <a href="#Contatos">
+                Formulário
+            </a>
+        </li>
+    </ul>
+</nav>
 <body>
     <div id="EstilizacaodePaginas">
         <h1>
@@ -18,7 +47,7 @@
             Estilização de Páginas é o processo de estilizar elementos criados por uma linguagem de marcação, como por exemplo o CSS modificando elementos HTML. 
         </p>
     </div>
-    <div id="Semantica">
+    <div id="Semantica" class="#Semantica">
         <h1>
             Semântica de Programação W3C para Estilização
         </h1>
@@ -27,29 +56,41 @@
             A W3Schools é uma plataforma online que oferece tutoriais e documentação sobre várias tecnologias da web, incluindo HTML, CSS, JavaScript e muitas outras. Quando se trata de estilização em particular, a W3Schools fornece informações abrangentes sobre a linguagem de estilização em cascata, CSS (Cascading Style Sheets)
         </p>
     </div>
-    <div id="Seletores">
+    <div id="Seletores" class="Seletores">
         <h1 style="text-align: center;">
             Tipos de Seletores
         </h1>
         <ul>
-            <li>
-                Seletor de tipo: Seleciona elementos com base em seu tipo. Por exemplo, o seletor p seleciona todos os elementos de parágrafo.
-            </li>
-            <li>
-                Seletor de classe: Seleciona elementos com base em sua classe atribuída. Usa o ponto (.) seguido do nome da classe. Por exemplo, o seletor .destaque seleciona todos os elementos com a classe "destaque".
-            </li>
-            <li>
-                Seletor de ID: Seleciona umSeletor descendente: Seleciona elementos filhos que estão aninhados dentro de um elemento pai. Usa um espaço para separar os elementos. Por exemplo, o seletor div p seleciona todos os elementos de parágrafo que estão dentro de um elemento div. único elemento com base em seu ID exclusivo. Usa o símbolo de cerquilha (#) seguido do nome do ID. Por exemplo, o seletor #logo seleciona o elemento com o ID "logo".
-            </li>
-            <li>Seletor de descendente direto: Seleciona elementos filhos diretos de um elemento pai. Usa o sinal de maior que (>). Por exemplo, o seletor ul > li seleciona todos os elementos li que são filhos diretos de um elemento ul.
-                Seletor descendente: Seleciona elementos filhos que estão aninhados dentro de um elemento pai. Usa um espaço para separar os elementos. Por exemplo, o seletor div p seleciona todos os elementos de parágrafo que estão dentro de um elemento div.
-            </li>
-            <li>
-                Seletor de atributo: Seleciona elementos com base em seus atributos. Por exemplo, o seletor [type="text"] seleciona todos os elementos com o atributo type definido como "text".
-            </li>
-            <li>
-                Seletor de pseudo-classe: Seleciona elementos com base em seu estado ou posição no documento. Por exemplo, o seletor :hover seleciona um elemento quando o mouse está sobre ele.
-            </li>
+            <br>
+                <li>
+                    Seletor de tipo: Seleciona elementos com base em seu tipo. Por exemplo, o seletor p seleciona todos os elementos de parágrafo.
+                </li>
+            </br>
+            <br>
+                <li>
+                    Seletor de classe: Seleciona elementos com base em sua classe atribuída. Usa o ponto (.) seguido do nome da classe. Por exemplo, o seletor .destaque seleciona todos os elementos com a classe "destaque".
+                </li>
+            </br>
+            <br>
+                <li>
+                    Seletor de ID: Seleciona umSeletor descendente: Seleciona elementos filhos que estão aninhados dentro de um elemento pai. Usa um espaço para separar os elementos. Por exemplo, o seletor div p seleciona todos os elementos de parágrafo que estão dentro de um elemento div. único elemento com base em seu ID exclusivo. Usa o símbolo de cerquilha (#) seguido do nome do ID. Por exemplo, o seletor #logo seleciona o elemento com o ID "logo".
+                </li>
+            </br>
+            <br>
+                <li>Seletor de descendente direto: Seleciona elementos filhos diretos de um elemento pai. Usa o sinal de maior que (>). Por exemplo, o seletor ul > li seleciona todos os elementos li que são filhos diretos de um elemento ul.
+                    Seletor descendente: Seleciona elementos filhos que estão aninhados dentro de um elemento pai. Usa um espaço para separar os elementos. Por exemplo, o seletor div p seleciona todos os elementos de parágrafo que estão dentro de um elemento div.
+                </li>
+            </br>
+            <br>
+                <li>
+                    Seletor de atributo: Seleciona elementos com base em seus atributos. Por exemplo, o seletor [type="text"] seleciona todos os elementos com o atributo type definido como "text".
+                </li>
+            </br>
+            <br>
+                <li>
+                    Seletor de pseudo-classe: Seleciona elementos com base em seu estado ou posição no documento. Por exemplo, o seletor :hover seleciona um elemento quando o mouse está sobre ele.
+                </li>
+            </br>
         </ul>
     </div>
     <div>
@@ -90,8 +131,23 @@
             </tr>
         </table>
     </div>
+    <div class="#Boxmodel" id="Boxmodel">
+        <h3 style="margin-left: 50%;">
+            Box Model
+        </h3>
+        <p style="margin-left: 20%;">
+            O modelo de caixa (box model) é um conceito fundamental em design e desenvolvimento de páginas da web. Ele descreve como os elementos HTML são renderizados e como seu espaço é distribuído na página.
+            Conteúdo (content): É a área que contém o conteúdo real do elemento, como texto, imagens ou outros elementos HTML.
+
+            Preenchimento (padding): É uma área transparente ao redor do conteúdo, que separa o conteúdo das bordas do elemento. O preenchimento pode ser definido para aumentar ou diminuir o espaço entre o conteúdo e as bordas.
+
+            Borda (border): É uma linha que circunda o conteúdo e seu preenchimento. A borda pode ter diferentes estilos, cores e espessuras.
+
+            Margem (margin): É uma área transparente que fica fora da borda e separa o elemento de outros elementos vizinhos. As margens são usadas para criar espaço entre os elementos.
+        </p>
+    </div>
     <div class="#contatos" id="Contatos">
-        <h2 style="margin-left: 50%;">
+        <h2 style="margin-left: 55%;">
             Formulário
         </h2>
         <h3 style="margin-left: 50%;">
@@ -119,11 +175,44 @@
                     <input type="text" id="Sobrenome" name="Sobrenome" placeholder="Sobrenome...">
                 </div>
             </div>
-            <div>
-                <input type="submit" value="Enviar">
+            <div class="rolagem">
+                <div class="TF"> 
+                    <label for="Sobrenome">
+                        Sobrenome
+                    </label>
+                </div>
+                <div class="mensagens">
+                    <input type="text" id="Sobrenome" name="Sobrenome" placeholder="Sobrenome...">
+                </div>
+            </div>
+            <div class="rolagem">
+                <div class="TF">
+                    <label for="país">
+                        País
+                    </label>
+                </div>      
+                <div class="mensagens">
+                    <select name="país" id="país">
+                        <option value="Brasil">
+                            Brasil
+                        </option>
+                        <option value="México">
+                            México
+                        </option>
+                        <option value="Peru">
+                            Peru
+                        </option>
+                        <option value="Argentina">
+                            Argentina
+                        </option>
+                        <option value="Japão">
+                            Japão
+                        </option>
+                    </select>
+                </div>
+                <input type="submit" name="enviar" placeholder="Enviar">
             </div>
         </form>
     </div>
-
 </body>
 </html>
